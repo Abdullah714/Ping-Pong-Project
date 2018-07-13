@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $("form#ping-pong").submit(function(event) {
         event.preventDefault();
@@ -5,8 +6,8 @@ $(document).ready(function() {
 
         var num = parseInt($("input#number").val());
         var no = Number(num);
-        no.forEach(function(aftermath) {
-            $("#results").append("<li>" + aftermath + "</li>");
+        no.forEach(function(math) {
+            $("#results").append("<li>" + math + "</li>");
 
         });
 
@@ -14,10 +15,10 @@ $(document).ready(function() {
     });
 });
 
-// jQuery user interface logic here
+// JQuery user interface logic 
 
 
-    var Number = function aftermath(num) {
+    var Number = function math(num) {
         var no = [];
         for(index=1; index<= num; index+=1) {
 
@@ -37,4 +38,4 @@ $(document).ready(function() {
         return no;
       };
 
-//Business logic
+//Back-end logic
