@@ -73,7 +73,7 @@ h5,h6{
   border-left-style:groove;
   border-bottom-style:groove;
   border-right-style:groove;
-  margin-left: 900px;
+  margin-left: 900px
 }
 
 #top, #bottom, #left, #right {
@@ -93,3 +93,9 @@ h5,h6{
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+
+    body{
+      background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/grey-moving-flowing-waves-abstract-background-video-animation-1920x1080_vjx3xtmwg__F0000.png);
+      background-repeat:no-repeat;
+      background-size: cover;
+    }
