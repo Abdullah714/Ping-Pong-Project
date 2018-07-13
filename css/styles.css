@@ -52,3 +52,44 @@ marquee{
         box-shadow: inset 0 -1px 0 0 #046ca3, inset 0 1px 0 0 #046ca3, 0 1px 0 0 #046ca3, 0 -1px 0 0 #046ca3;
 	margin-bottom: 1px;
 }
+
+h4{
+  font-size: 35px;
+  color: #E85D40;
+}
+
+h5,h6{
+  font-size: 25px;
+  color: #7CB36C;
+}
+
+.name,h7{
+  font-size: 20px;
+  color: #449FA3;
+}
+
+#about{
+  border-top-style: groove;
+  border-left-style:groove;
+  border-bottom-style:groove;
+  border-right-style:groove;
+  margin-left: 900px;
+}
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 5px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 5px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
