@@ -16,7 +16,7 @@ https://abdullah714.github.io/Ping-Pong-Project/
 * JAVASCRIPT
 * JQUERY
 
-##### Author
+### Author
 
 Created By: Mohamed Abdullahi Elmoge.
 
