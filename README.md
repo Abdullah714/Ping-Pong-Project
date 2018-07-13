@@ -20,8 +20,8 @@ https://abdullah714.github.io/Ping-Pong-Project/
 
 Created By: Mohamed Abdullahi Elmoge.
 
-## License
-This project is under an MIT license.
-
 ##### Helpful Resources
 W3Schools and StackOverFlow.
+
+## License
+This project is under an MIT license.
