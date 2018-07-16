@@ -1,3 +1,4 @@
+// JQuery user interface logic
 
 $(document).ready(function() {
     $("form#ping-pong").submit(function(event) {
@@ -15,8 +16,8 @@ $(document).ready(function() {
     });
 });
 
-// JQuery user interface logic 
 
+//Back-end logic
 
     var Number = function math(num) {
         var no = [];
@@ -37,5 +38,3 @@ $(document).ready(function() {
         console.log(no);
         return no;
       };
-
-//Back-end logic
