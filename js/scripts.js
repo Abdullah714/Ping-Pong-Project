@@ -1,14 +1,15 @@
 // JQuery user interface logic
 
 $(document).ready(function() {
-    $("form#ping-pong").submit(function(event) {
+    $("form#pingpong").click(function(event) {
         event.preventDefault();
         $("#results").empty();
 
-        var num = parseInt($("input#number").val());
-        var no = Number(num);
-        no.forEach(function(math) {
-            $("#results").append("<li>" + math + "</li>");
+        var number = $("#number").val();
+        var result = parseInt(number);
+        user(result);
+        me.forEach(function(result) {
+            $("#outcome").append("<li>" + result + "</li>");
 
         });
 
@@ -18,23 +19,20 @@ $(document).ready(function() {
 
 
 //Back-end logic
+    var me = [];
+   function user(result) {
+        for(index=1; index<= result; index+=1) {
 
-    var Number = function math(num) {
-        var no = [];
-        for(index=1; index<= num; index+=1) {
-
-        if ((index % 15 === 0)) {
-          no.push ("pingpong");
+        if (index % 15 === 0) {
+          me.push ("pingpong");
 
         }else if(index % 5 === 0) {
-           no.push ( "pong");
+           me.push ("pong");
 
         }else if (index % 3 === 0) {
-          no.push("ping");
+          me.push("ping");
         } else
-            no.push (index);
+            me.push (index);
 
        }
-        console.log(no);
-        return no;
       };
